@@ -1,0 +1,100 @@
+/* Modern AI App Theme - Glassmorphism Inspired
+
+/* Global styles */
+body {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: #e2e8f0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container styling */
+.MuiContainer-root {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+/* Typography */
+.MuiTypography-h3 {
+  text-align: center;
+  font-weight: 700;
+  color: #f8fafc;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Fields */
+.MuiTextField-root, .MuiOutlinedInput-root {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  color: #f8fafc;
+}
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.4) !important;
+}
+.MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Dropdown (Select) */
+.MuiSelect-root {
+  color: #e2e8f0;
+}
+
+/* Buttons */
+.MuiButton-contained {
+  background: linear-gradient(135deg, #6366f1, #9333ea);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.2s, background 0.3s;
+}
+.MuiButton-contained:hover {
+  background: linear-gradient(135deg, #4f46e5, #7e22ce);
+  transform: scale(1.05);
+}
+
+.MuiButton-outlined {
+  color: #6366f1;
+  border-color: #6366f1;
+  border-radius: 8px;
+}
+.MuiButton-outlined:hover {
+  background: rgba(99, 102, 241, 0.2);
+}
+
+/* Loading Spinner */
+.MuiCircularProgress-root {
+  color: #6366f1 !important;
+}
+
+/* Error message */
+.MuiTypography-colorError {
+  text-align: center;
+  font-weight: bold;
+  color: #ef4444 !important;
+}
+
+/* Generated Reply Section */
+.MuiBox-root {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 18px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding: 15px;
+  }
+} */
